@@ -1,4 +1,7 @@
 // Write your cade below:
+module.exports = {
+	Mymethod
+}
 function Mymethod(x,y) {
 	if(y===0) {
 		return '无法计算'
@@ -6,6 +9,3 @@ function Mymethod(x,y) {
 		return x%y;
 	} 
 };
-module.exports = {
-	Mymethod
-}
